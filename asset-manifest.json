@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/reactDice/static/css/main.ab5542f7.css",
-    "main.js": "/reactDice/static/js/main.8c47dd41.js",
+    "main.js": "/reactDice/static/js/main.3cb77d73.js",
     "static/js/441.94aa8603.chunk.js": "/reactDice/static/js/441.94aa8603.chunk.js",
     "index.html": "/reactDice/index.html",
     "main.ab5542f7.css.map": "/reactDice/static/css/main.ab5542f7.css.map",
-    "main.8c47dd41.js.map": "/reactDice/static/js/main.8c47dd41.js.map",
+    "main.3cb77d73.js.map": "/reactDice/static/js/main.3cb77d73.js.map",
     "441.94aa8603.chunk.js.map": "/reactDice/static/js/441.94aa8603.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ab5542f7.css",
-    "static/js/main.8c47dd41.js"
+    "static/js/main.3cb77d73.js"
   ]
 }
