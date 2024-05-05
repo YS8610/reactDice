@@ -32,12 +32,16 @@ function App() {
   const rollAll = () => {
     const set = new Set<number>();
     let a = [];
-    if (checkUniq) {
+    if (num <= 6 && checkUniq) {
       while (set.size < num) {
         set.add(getRandomIntInclusive(1, 6));
       }
       reactDice.current?.rollAll([...set]);
-    } else {
+    } 
+    else if (num > 6 && checkUniq){
+      reactDice.current?.rollAll([...set]);
+    }
+    else {
       do {
         set.clear();
         a = [];
@@ -45,7 +49,7 @@ function App() {
           a.push(getRandomIntInclusive(1, 6));
         }
         a.forEach((x) => set.add(x));
-      } while (set.size === num && num === 6);
+      } while (num <= 6 && num >2 && set.size === num);
       reactDice.current?.rollAll(a);
     }
     var d = new Date();
@@ -103,6 +107,7 @@ function App() {
             title="checkuniq"
             checked={checkUniq}
             onChange={handleUnique}
+            disabled={num>6?true:false}
           />
           <label htmlFor="checkuniq">unique?</label>
         </div>
