@@ -1,6 +1,10 @@
-# Getting Started with Create React App
+# React Dice
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+## How to use
+
+The default number of dice is 5. Changing the query string will change the number of dice. For example: appending ?d=4 at the end of the url will change the dice number to 4. Hide will hide the dice and roll will roll all the dice. if unique is checked, then only unique number will be rolled out. Else, dice with same number will be rolled.
 
 ## Available Scripts
 
